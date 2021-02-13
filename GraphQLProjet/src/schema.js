@@ -1,46 +1,46 @@
 export default `
   scalar Date
   type Query {
-    vins: [Vin]
-    vin(id: Int!): Vin
-    getPerson : [Persons]
-    getVignoble(type:String!): Vignoble
-    getUser(id:Int!): User
+    films: [Film]
+    film(id: Int!): Film
+    director(id: Int!): Director
+    actor(id: Int!): Actor
     people: [Person]
   }
-
- union Person = Vignoble | User
-
- interface IPerson {
-   id: Int!
-   lastName: String!
- }
-
- type Vignoble implements IPerson{
+  union Person = Actor | Director
+  interface IPerson {
     id: Int!
+    firstName: String!
     lastName: String!
-    logo : String!
-    address : String!
+    dateOfBirth: Date!
+    dateOfDeath: Date
   }
-
-  type User implements IPerson{
+  type Actor implements IPerson {
     id: Int!
+    firstName: String!
     lastName: String!
+    dateOfBirth: Date!
+    dateOfDeath: Date
+    roles: [Role!]!
   }
-
-  type Persons {
+  type Director implements IPerson {
     id: Int!
+    firstName: String!
     lastName: String!
-    type: String!
+    dateOfBirth: Date!
+    dateOfDeath: Date
+    films: [Film]!
   }
-
-  type Vin{
+  type Film {
     id: Int!
-    nom: String!
-    typev: String!
-    typer: String!
-    productor: String!
+    title: String!
+    originalTitle: String!
+    [status]: String!
+    director: Director!
+    roles: [Role]!
   }
-
-
+  type Role {
+    personnage: String!
+    actor: Actor!
+  }
 `;
