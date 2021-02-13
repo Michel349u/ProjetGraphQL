@@ -39,5 +39,3 @@ Listez le(s) auteur(s) du projet ici !
 
 Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
 
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
-
