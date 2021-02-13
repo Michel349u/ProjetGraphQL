@@ -26,7 +26,8 @@ _logiciels/technologies :_
 
 
 ## Versions
-Listez les versions ici 
+Listez les versions ici:
+
 **Dernière version :** 0.1
 Liste des versions : [Cliquer pour afficher](https://github.com/Michel349u/ProjetGraphQL/tags)
 
