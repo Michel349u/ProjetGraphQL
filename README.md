@@ -1,6 +1,6 @@
 # Réseau social accès sur le vin
 
-https://forthebadge.com/images/badges/uses-html.svg [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 
 Notre projet consiste à créer un réseau social, qui permettrait à des consommateurs de vin de discuter noter et parler autour de leurs vins préférer. Sans oublier que les producteurs de vins eux pourront en profiter pour mettre en avant leurs produits, leur production et des informations concernant leur création
 
