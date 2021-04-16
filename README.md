@@ -23,6 +23,7 @@ Notre projet consiste à créer un réseau social, qui permettrait à des consom
 
 _logiciels/technologies :_
 * [GraphQL](https://graphql.org/) - Langage query pour API
+* [React TypeScript](https://www.typescriptlang.org/docs/handbook/react.html)
 
 
 ## Versions
